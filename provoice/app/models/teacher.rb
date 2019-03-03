@@ -1,4 +1,4 @@
 class Teacher < ApplicationRecord
   belongs_to :expert
-  has_many :teacher_types
+  belongs_to :teacher_type
 end
